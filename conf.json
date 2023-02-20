@@ -1,0 +1,6 @@
+{
+  "storagedir" : "/etc/mnas/storage/",
+  "users" : [],
+  "passwords" : [],
+  "allowedIP" : []
+}
