@@ -6,12 +6,12 @@
 - or clone this repo
 
 
-    $ git clone https://github.com/cpy-dev/mnasn
+        $ git clone https://github.com/cpy-dev/mnas
 
 - extract files from archive
 
 
-    $ tar -xf mnas_1.0.0-linux-any.tar.gz
+        $ tar -xf mnas_1.0.0-linux-any.tar.gz
 
 
 - run "setup.sh", which will 
@@ -20,12 +20,12 @@
 - this action is required only on the device which will be server
     
 
-    $ sudo ./setup.sh
+        $ sudo ./setup.sh
 
 - then install the requirements for mNas GUI
 
 
-    $ pip install -r requirements.txt
+        $ pip install -r requirements.txt
 
 
 - you are good to go
@@ -42,23 +42,23 @@
 
 - set up the first user
 
-      $ python3 mnas-server.py --add-user 
+        $ python3 mnas-server.py --add-user 
 
   - you will be prompted to provide username and password for the user
 
 - default location for mNas storage is "/etc/mnas/storage", if you wish to change it run the following command providing the new location
 
-      $ python3 mnas-server.py --set-storage-dir /new/path/to/storage/
+        $ python3 mnas-server.py --set-storage-dir /new/path/to/storage/
 
 - once done configuring, just run mnas-server.py with no arguments and server will start itself
 
-      $ python3 mnas-server.py
+        $ python3 mnas-server.py
 
 - it is a good practice to have a log file, to have a trace of any activity involving mNas server
 
-      $ python3 mnas-server.py &>> /etc/mnas/mnas.log
+        $ python3 mnas-server.py &>> /etc/mnas/mnas.log
 
 # Client GUI application usage
 - just run the "mnas-client-gui.py" script (after installing requirements) and you're good to go
 
-      $ python3 mnas-client-gui.py
+        $ python3 mnas-client-gui.py
